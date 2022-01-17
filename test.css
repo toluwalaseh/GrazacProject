@@ -1,0 +1,168 @@
+/* h1 {
+    color: red;
+    font-size: 2em;
+} */
+
+
+/* h1 - selector
+    color - property
+    red - value
+*/
+
+
+/* Selecting element in CSS */
+
+/* 
+    1. ID
+    2. Class
+    3. Tag
+    4. Attribute
+    5. Pseudo-class
+    6. Pseudo-element
+*/
+
+/* #first {
+    color: blue;
+}
+
+#second {
+    color: red
+} */
+
+/* .red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+} */
+
+/* Selecting by attribute */
+/* [placeholder="Password"] {
+    background-color: green;
+    display: block;
+    width: 100%;
+} */
+
+/* h1 {
+    color: purple !important;
+} */
+
+
+.title {}
+
+/* 
+    inline style
+    id
+    class
+    tag
+*/
+
+
+/* 
+ Child selector
+     - CHild siblings
+    > - Child
+
+    /* Sibling
+    +
+    ~
+    */
+
+/* div~h1 {
+    color: red;
+} */
+
+
+/* .outer-div h1 {
+    color: pink;
+} */
+
+/* .outer-div>h1 {
+    color: red;
+} */
+
+
+/* .outer-div + h1 {
+    color: red;
+} */
+
+/* .outer-div~h1 { */
+/* color: pink */
+/* } */
+
+/* .content>.form #second .input {
+    background-color: red
+} */
+
+
+/* 
+    Pseudo-class
+    :hover
+    :focus
+*/
+
+/* .button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: green;
+}
+
+[type="email"]:hover {
+    background-color: red;
+}
+
+[type="email"]:focus {
+
+    background-color: yellow;
+} */
+
+/* 
+    Pseudo-element
+    :first-of-type
+    :nth-child()
+    :nth-last-child()
+    :nth-of-type()
+    ::after
+    ::before
+    :first-child
+    :last-of-type
+    :last-child
+*/
+
+/* 
+.ol li:nth-of-type(even) {
+    color: red
+} */
+
+/* .ol .li:nth-child(3) {
+    color: red;
+}
+
+.ol .li:first-child {
+    color: yellow;
+}
+
+.li {
+    color: green;
+} */
+
+
+/* .li::after {
+    content: " is a programming language";
+    color: blue;
+    font-size: 20px
+} */
+
+/* .li::before {
+    content: "Programming Language - ";
+    color: blue;
+    font-size: 20px;
+} */
